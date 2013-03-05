@@ -1,1 +1,1 @@
-XPerience Based on CM7
+XPerience Based on CM10 and MiniCM10
