@@ -4,9 +4,10 @@ $(call inherit-product, vendor/cm/config/common_mini_phone.mk)
 # Extra Ringtones
 include frameworks/base/data/sounds/AudioPackageNewWave.mk
 
-# MiniCM10 themes
+# XPerience themes
 PRODUCT_COPY_FILES += \
-    device/semc/msm7x27-common/prebuilt/xperia_xpe.apk:system/app/xperia_xpe.apk 
+    device/semc/msm7x27-common/prebuilt/xperia_xpe.apk:system/app/xperia_xpe.apk \
+ device/semc/msm7x27-common/prebuilt/Xperience.apk:system/app/Xperience.apk	
     
 
 PRODUCT_PROPERTY_OVERRIDES += \
